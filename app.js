@@ -27,4 +27,15 @@ function userExperince(a,b){
     console.log('hello'+ ' ' + a+ ' ' + b);
 }
 
-userExperince('hussain','shamim')
+userExperince('hussain','shamim');
+
+// fnc return
+
+
+function subjact(math,english){
+    sum = math + english;
+    return sum
+}
+
+var total = subjact(42,3)
+console.log(total)
