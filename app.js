@@ -20,3 +20,11 @@ gag()
 }
 
 myDeta()
+
+// fnc with peramitor
+
+function userExperince(a,b){
+    console.log('hello'+ ' ' + a+ ' ' + b);
+}
+
+userExperince('hussain','shamim')
