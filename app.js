@@ -1,41 +1,8 @@
+var form = document.getElementById(form) ;
+var userInput = document.getElementById(userInput) ;
+var click = document.querySelector("button");
 
-// ternary operator
-
-// var student = prompt('kk');
-// var sites;
-
-// (student == 10)? sites = 'yes Avalible' : 'not Avalible';
-
-// console.log(sites)
-
-
-function myDeta(){
- console.log("name : hussain" + "age : 17" +
-   "class : eleventh"  +
-   "course : WMA" )
-   function gag(){
-    console.log('hay')
-}
-gag()
-}
-
-myDeta()
-
-// fnc with peramitor
-
-function userExperince(a,b){
-    console.log('hello'+ ' ' + a+ ' ' + b);
-}
-
-userExperince('hussain','shamim');
-
-// fnc return
-
-
-function subjact(math,english){
-    sum = math + english;
-    return sum
-}
-
-var total = subjact(42,3)
-console.log(total)
+click.addEventListener("click",function first(value){
+    console.log(userInput.value);
+    console.log('daba')
+})
